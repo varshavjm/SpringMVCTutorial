@@ -54,6 +54,9 @@ public class BaseController {
 	@RequestMapping(value = "/ajax/{name}", method = RequestMethod.POST, produces="application/json")
 	public @ResponseBody String ajax(@PathVariable("name") String name,@RequestParam("query")String query) {
 		
+		ArrayList<String> result= new ArrayList<>();
+		
+		//Remove spaces and query indices
 		query=query.trim();
 		query=query.substring(2, query.length());
 		System.out.println("....Query is "+query);
@@ -65,15 +68,23 @@ public class BaseController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		StringBuilder bld= new StringBuilder();
+		
 		for(String file:fileList) {
-		bld=bld.append(ReadUtility.readFromFile("Crawler/"+file));
-		bld.append("\n");
+		result.add(ReadUtility.readFromFile("Crawler/"+file));
 		}
-
-		return bld.toString();
 		}
-		return "Default";
+		
+		//Convert result to json string and return
+		ObjectMapper objectMapper = new ObjectMapper();
+	  	objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+			String arrayToJson = null;
+			try {
+				arrayToJson = objectMapper.writeValueAsString(result);
+			} catch (JsonProcessingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return arrayToJson;
 	}
 	
 
