@@ -1,2 +1,2 @@
 
-Jumps (breaks) out from a loop. Also used at switch statement.
+for is a Java keyword.

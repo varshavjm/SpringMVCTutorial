@@ -1,2 +1,2 @@
 
-float is a keyword which designates the 32 bit float primitive type.
+When the <integer-var> value match one of the <label>, then: The statements after the matched label will be executed including the following label's statements, until the end of the switch block, or until a break keyword is reached.

@@ -1,2 +1,2 @@
 
-This instantiation is brought about by one of the class's methods, called a constructor. As its name implies, a constructor builds the object based on the blueprint. Behind the scenes, this means that computer memory is being allocated for the instance, and values are being assigned to the data members.
+The JVM is not generated. You download the JRE or JDK and once installed you launch the JVM as explained here. System is a class. It's a static use of a class. out is a static field of the System class. The book explain how to create a class here. Ftiercel (discuss • contribs) 19:29, 11 March 2013 (UTC)

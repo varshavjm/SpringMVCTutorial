@@ -1,2 +1,0 @@
-
-There are two boolean literals

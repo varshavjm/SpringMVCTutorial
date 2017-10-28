@@ -1,2 +1,2 @@
 
-This means that we are defining a class named Distance. Other classes, or in our case, the command line, can refer to the class by this name. The public keyword is an access modifier which declares that this class and its members may be accessed from other classes. The class keyword, obviously, identifies this declaration as a class. Java also allows declarations of interfaces and annotations.
+A constructor is a special method in a class which is used to construct an instance of the class. The constructor can perform initialization for the object, beyond that which the Java VM does automatically. For example, Java will automatically initialize the fields point0 and point1 to null.

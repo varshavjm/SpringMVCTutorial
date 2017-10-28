@@ -1,2 +1,2 @@
 
-This line is a simple instruction that tells the system to initialize a variable and set its value as 24. If the above statement was the only one in the program, it would look similar to this:
+Now, before we move on to the next topic, you need to try and understand what the code below does.

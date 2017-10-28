@@ -1,2 +1,2 @@
 
-In addition to the try and catch blocks, a finally block may be present. The finally block is always executed, even if an exception is thrown. It may appear with or without a catch block, but always with a try block.
+The Java boolean operators are based on the operations of the boolean algebra. The boolean operators operate directly on boolean values.

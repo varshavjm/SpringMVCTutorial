@@ -1,2 +1,2 @@
 
-By declaring all fields and methods public, we have ensured that they can be used outside the scope of the Animal class. This means that any other object (other than Animal) has access to these member elements. However, to restrict access to certain member elements of a class, we can always use the private access modifier (as demonstrated below).
+In order to make use of the content in this book, you would need to follow along each and every tutorial rather than simply reading through the book. But to do so, you would need access to a computer with the Java platform installed on it — the Java platform is the basic prerequisite for running and developing Java code, thus it is divided into two essential pieces of software:

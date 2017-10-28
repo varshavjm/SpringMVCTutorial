@@ -1,2 +1,2 @@
 
-The prime numbers are counted using currentItems. When currentItems is equal to numberOfItems (5), the program go out of the while loop. currentCandidate contains the last number, that is to say the 5th prime number:
+In addition to the try and catch blocks, a finally block may be present. The finally block is always executed, even if an exception is thrown. It may appear with or without a catch block, but always with a try block.

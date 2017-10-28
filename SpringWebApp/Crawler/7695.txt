@@ -1,2 +1,2 @@
 
-A private method cannot be abstract.
+case is a Java keyword.

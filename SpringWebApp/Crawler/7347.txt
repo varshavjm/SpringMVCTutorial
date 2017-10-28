@@ -1,2 +1,2 @@
 
-You do not necessarily have to use a new line to write each statement. Just like English, you can begin writing the next statement where you ended the first one as depicted below:
+Each assert statement is ended by a semi-colon (;). However, assertions are disabled by default, so you must run the program with the -ea argument in order for assertions to be enabled (java -ea [name of compiled program]).

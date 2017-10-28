@@ -1,2 +1,2 @@
 
-The final keyword can also be used for method parameters:
+short is a keyword. It defines a 16 bit signed integer primitive type.

@@ -1,2 +1,2 @@
 
-This program uses three separate reference types:
+Line separators are special whitespace characters in that they also terminate line comments, whereas normal whitespace does not.

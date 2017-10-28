@@ -1,2 +1,2 @@
 
-Starting in J2SE 7.0, the switch statement can also be used with an String value instead of an integer.
+} while (boolean expression1);

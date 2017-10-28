@@ -1,2 +1,2 @@
 
-The final keyword forbids to overwrite the method in a subclass. It is useless if the class is already final and a private method is implicitly final. A final method cannot be abstract.
+Public static variable should not be used, as these become global variables that can be accessed from everywhere in the program. Global constants can be used, however. See below:

@@ -1,2 +1,2 @@
 
-Each Java top level class belongs to a package (covered in the chapter about Packages). This may be declared in a package statement at the beginning of the file; if that is missing, the class belongs to the unnamed package.
+The Java source file name must be the same as the public class name that the file contains. There can be only one public class defined per file. The Java class name is case sensitive, as is the source file name.

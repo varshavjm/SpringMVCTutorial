@@ -1,2 +1,2 @@
 
-In the Java programming language, there are four kinds of variables.
+Alternatively, you can further reduce the syntax by doing group declarations and assignments together, as such:

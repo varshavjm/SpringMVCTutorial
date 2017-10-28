@@ -1,2 +1,2 @@
 
-All the monitoring and management and troubleshooting tools are currently marked as "experimental" (which does not affect jdb). So they might disappear in future JDKs.
+The success of the Java platform and the concepts of the write once, run anywhere principle has led to the development of similar frameworks and platforms. Most notable of these is the Microsoft's .NET framework and its open-source equivalent Mono.

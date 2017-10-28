@@ -1,2 +1,2 @@
 
-For example:
+this is a Java keyword. It contains the current object reference.

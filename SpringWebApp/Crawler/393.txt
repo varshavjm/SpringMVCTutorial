@@ -1,2 +1,2 @@
 
-In addition, the identifiers null, true, and false denote literal values and may not be used to create identifiers.
+The final keyword is similar to const in other languages and the readonly keyword in C#. A final variable cannot be volatile.

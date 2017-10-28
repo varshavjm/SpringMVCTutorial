@@ -1,2 +1,2 @@
 
-What will be printed in the standard output?
+There are three types of numeric literals in Java.

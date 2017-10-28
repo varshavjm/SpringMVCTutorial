@@ -1,2 +1,2 @@
 
-In the code above you defined two object fields:
+In order to demonstrate how fields work, we will go ahead and create objects from this amended version of our class definition as such:

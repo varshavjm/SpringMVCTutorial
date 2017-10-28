@@ -1,2 +1,2 @@
 
-For example:
+continue is a Java keyword. It skips the remainder of the loop and continues with the next iteration.

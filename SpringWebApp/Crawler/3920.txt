@@ -1,2 +1,2 @@
 
-byte is a keyword which designates the 8 bit signed integer primitive type.
+The general syntax of a for, using Extended Backus-Naur Form, is

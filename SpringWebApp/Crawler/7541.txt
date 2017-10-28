@@ -1,2 +1,2 @@
 
-int x = 10; => 10 x = x + 10; => 20 x = 2 * x; => 40 x = x - 19; => 21 x = x / 3; => 7
+In Java, you may enter integer numbers in several formats:

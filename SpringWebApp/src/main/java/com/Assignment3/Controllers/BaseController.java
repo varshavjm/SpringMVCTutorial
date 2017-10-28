@@ -52,8 +52,7 @@ public class BaseController {
 	
 	*/
 	@RequestMapping(value = "/ajax/{name}", method = RequestMethod.POST, produces="application/json")
-	public @ResponseBody String ajax(@PathVariable("name") String name,@RequestParam("query")String query) {
-		
+	public @ResponseBody synchronized String ajax(@PathVariable("name") String name,@RequestParam("query")String query) {
 		ArrayList<String> result= new ArrayList<>();
 		
 		//Remove spaces and query indices
@@ -65,7 +64,6 @@ public class BaseController {
 		try {
 			fileList = SimpleLuceneIndexing.getRelevantFilesFromQuery(query);
 		} catch (IOException | ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -85,6 +83,7 @@ public class BaseController {
 				e.printStackTrace();
 			}
 			return arrayToJson;
+		
 	}
 	
 

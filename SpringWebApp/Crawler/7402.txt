@@ -1,2 +1,2 @@
 
-The if block executes only if the boolean expression associated with it is true. The structure of an if block is as follows:
+Conditional expressions use the compound ?: operator. Syntax:

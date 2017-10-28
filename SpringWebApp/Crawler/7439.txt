@@ -1,2 +1,2 @@
 
-Make sure that the type of the array or list is assignable to the declared variable, or you will get a compilation error. Notice that the loop automatically exits after the last item in the collection has been examined in the statement block.
+For each iteration, the current number is either a prime number or not. If it is a prime number, the code at the left will be executed. If it is not a prime number, the code at the right will be executed.

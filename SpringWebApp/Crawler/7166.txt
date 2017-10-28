@@ -1,2 +1,2 @@
 
-Given below are installation instruction for the Oracle Java SE JDK for various operating systems:
+..then the JDK may not be installed or it may not be in your path.

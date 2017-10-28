@@ -1,2 +1,2 @@
 
-To break out of or continue with a loop, use the break or continue keyword followed by the name of the loop.
+The code listing 3.7 recieves a number as parameter and print its binary representation.

@@ -1,2 +1,2 @@
 
-Question 3.9: Consider the following code:
+As you can see in code section 3.70, the modifyValue() method has not modified the value of i.

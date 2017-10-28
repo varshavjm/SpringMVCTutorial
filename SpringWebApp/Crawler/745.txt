@@ -1,2 +1,2 @@
 
-To do: Add some exercises like the ones in Variables
+The new features and upgrades included into Java changed the face of programming environment and gave a new definition to Object Oriented Programming (OOP in short). But unlike its predecessors, Java needed to be bundled with standard functionality and be independent of the host platform.

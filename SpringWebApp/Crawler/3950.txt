@@ -1,2 +1,2 @@
 
-For example:
+To ensure that the package name will be unique across vendors, usually the company url is used starting in backword.

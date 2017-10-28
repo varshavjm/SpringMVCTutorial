@@ -1,2 +1,2 @@
 
-The code above effectively creates an object called dog based on the class definition for Animal. In non-programmer parlance, the code above would translate into something akin to saying, "Create a new object dog of type Animal." A single class definition enables you to create multiple objects as the code below indicates:
+In the code above you defined two object fields:

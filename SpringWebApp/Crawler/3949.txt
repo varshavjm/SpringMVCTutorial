@@ -1,2 +1,2 @@
 
-The general syntax of a if, using Extended Backus-Naur Form, is
+package is a Java keyword. It declares a 'name space' for the Java class. It must be put at the top of the Java file, it should be the first Java statement line.

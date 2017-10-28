@@ -1,2 +1,2 @@
 
-All the primitive types have a fixed size. Thus, the primitive types are limited to a range of values. A smaller primitive type (byte) can contain less values than a bigger one (long).
+But, what about larger numbers. You would need significantly more bits to hold larger numbers. That's where Java's numeric types come into play. Java has multiple numeric types — their size dependent on the number of bits that are at play.

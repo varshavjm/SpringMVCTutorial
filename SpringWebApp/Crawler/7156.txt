@@ -1,2 +1,2 @@
 
-Note: Methods are known by different names in different programming language. They might be called functions, procedures, routines or behaviors.
+Let's modify our example to demonstrate this effect:

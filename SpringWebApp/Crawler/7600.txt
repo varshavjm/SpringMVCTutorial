@@ -1,2 +1,2 @@
 
-The method is supposed to return a int but at line 4, it returns c, which is a String.
+Each Java object has the String toString() inherited from the Object class. This method provides a way to convert objects into Strings. Most classes override the default behavior to provide more specific (and more useful) data in the returned String:

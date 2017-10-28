@@ -1,2 +1,2 @@
 
-break is a Java keyword.
+const is a reserved keyword, presently not being used.

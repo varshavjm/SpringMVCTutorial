@@ -1,2 +1,2 @@
 
-The final keyword forbids the creation of a subclass. It is the case of the Integer or String class.
+Static methods cannot call non static methods. The this current object reference is also not available in static methods.

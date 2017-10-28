@@ -1,2 +1,2 @@
 
-A class with this package declaration
+Using Ant you would build your application from the command line by typing:

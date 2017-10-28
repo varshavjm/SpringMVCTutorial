@@ -1,2 +1,2 @@
 
-Question 3.10: Consider the following code:
+The concatenation is not always processed at the same time. Raw string literals concatenation is done at compile time, hence there is a single string literal in the byte code of the class. Concatenation with at least one object is done at runtime.

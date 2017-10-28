@@ -1,2 +1,2 @@
 
-Java uses a syntax similar to the C programming language and therefore if one learns the Java programming syntax, they automatically would be able to read and write programs in similar languages — C, C++ and C#
+Now that we have the Java platform on our systems and have run the first program successfully, we are geared towards understanding how programs are actually made. As we have already discussed, a program is a set of instructions, which are tasks provided to a computer. These instructions are called statements in Java. Statements can be anything from a single line of code to a complex mathematical equation. Consider the following line:

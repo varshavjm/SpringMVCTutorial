@@ -1,2 +1,2 @@
 
-The object references are passed by value. It means that:
+Question 3.10: Consider the following code:

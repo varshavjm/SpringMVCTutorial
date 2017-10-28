@@ -1,2 +1,2 @@
 
-A method therefore enables an object to:
+Note: Methods are known by different names in different programming language. They might be called functions, procedures, routines or behaviors.

@@ -1,2 +1,2 @@
 
-For the second line:
+An object reference is a pointer, an address to the object instance.

@@ -1,2 +1,2 @@
 
-If there is only one statement to be executed after the condition, as in the above example, it is possible to omit the curly braces, however Oracle's Java Code Conventions explicitly state that the braces should always be used.
+The else if statement is useful in this case because if one of the conditionals is true, the other must be false. Keep in mind that if one is true, the other will not execute. For example, if the statement at line 2 contained in the first conditional were changed to x = 3;, the second conditional, the else if, would still not execute. However, when dealing with primitive types in conditional statements, it is more desirable to use switch statements rather than multiple else if statements.

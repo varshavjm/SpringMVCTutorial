@@ -1,2 +1,2 @@
 
-The most often used data structure in any language is a character string. For this reason java defines a special object that is String.
+You do not necessarily have to use a new line to write each statement. Just like English, you can begin writing the next statement where you ended the first one as depicted below:

@@ -1,2 +1,2 @@
 
-The general syntax of a for, using Extended Backus-Naur Form, is
+The synchronized keyword can be used in two ways:

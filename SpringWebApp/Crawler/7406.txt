@@ -1,2 +1,2 @@
 
-} else if (boolean expression2) {
+The structure of a switch statement is as follows:

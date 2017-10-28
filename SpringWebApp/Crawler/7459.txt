@@ -1,2 +1,2 @@
 
-The code listing 3.6 tries to print all the arguments that have been passed to the program. However, if there not enough arguments, it will throw an exception.
+Comparative operators can be used on any primitive types (except boolean), but only the "equals" and "does not equal" operators work on objects. This is because the less-than/greater-than operators cannot be applied to objects, but the equivalency operators can.

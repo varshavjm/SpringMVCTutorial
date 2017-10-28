@@ -1,2 +1,2 @@
 
-Examples of keywords are the primitive types, int and boolean; the control flow statements for and if; access modifiers such as public, and special words which mark the declaration and definition of Java classes, packages, and interfaces: class, package, interface.
+The previous code only creates a connection once (at the first method call). Note that there is no automatic conversion between integer types (such as int) to boolean as is possible in some languages like C. Instead, one must use an equivalent expression such as (i != 0) which evaluates to true if i is not zero.

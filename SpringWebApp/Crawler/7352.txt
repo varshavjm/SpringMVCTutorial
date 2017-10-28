@@ -1,2 +1,2 @@
 
-Note that after the assignment to result its value will not be changed if we assign different values to firstNumber or secondNumber, like in line 5.
+When a name of a method is encountered in a flow, it stops execution in the current method and branches to the newly called method. After returning a value from the called method, execution picks up at the original method on the line below the method call.

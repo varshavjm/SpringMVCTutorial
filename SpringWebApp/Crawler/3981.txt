@@ -1,2 +1,2 @@
 
-For example:
+A synchronized block is marked as:

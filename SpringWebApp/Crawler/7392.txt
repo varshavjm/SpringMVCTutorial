@@ -1,2 +1,2 @@
 
-Although the enhanced for loop can make code much clearer, it can't be used in some common situations.
+5 One statement at line 3, two statements at line 6, one statement at line 7 and one statement at line 11.

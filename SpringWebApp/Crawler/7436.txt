@@ -1,2 +1,2 @@
 
-To understand the structure of a for-each loop, look at the following example:
+What will be printed in the standard output?

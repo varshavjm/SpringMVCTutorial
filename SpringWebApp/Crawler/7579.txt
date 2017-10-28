@@ -1,2 +1,2 @@
 
-The code above will return a compiler error. Why?
+A method can have both normal parameters and a variable parameter but the variable parameter must always be the last parameter. For instance, if the programmer is required to use a minimum number of parameters, those parameters can be specified before the variable argument:

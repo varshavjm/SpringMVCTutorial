@@ -1,2 +1,2 @@
 
-Question 3.8: Consider the following code:
+There are no other boolean literals, because there are no other boolean values!

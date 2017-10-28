@@ -1,2 +1,2 @@
 
-With J2EE the following Java component executions are possible:
+(If the javac command fails, review the installation instructions.)

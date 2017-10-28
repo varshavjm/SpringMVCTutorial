@@ -1,2 +1,2 @@
 
-Question 3.1: How many statements are there in this class?
+Here is an example to illustrate:

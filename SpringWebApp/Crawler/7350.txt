@@ -1,2 +1,2 @@
 
-Now, before we move on to the next topic, you need to try and understand what the code below does.
+Program flow can be affected using function/method calls, loops and iterations. Of various types of branching constructs, we can easily pick out two generic branching methods.

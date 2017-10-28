@@ -1,2 +1,2 @@
 
-The <object-reference> instanceof Object will return true for all non-null object references, since all Java objects are inherited from Object. instanceof will always return false if <object-reference> is null.
+Used at method declaration and definition to specify that the method does not return any type, the method returns void. It is not a type and there is no void references/pointers as in C/C++.

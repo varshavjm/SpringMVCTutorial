@@ -1,2 +1,2 @@
 
-A minimal Jini network environment consists of:
+Here are two examples:

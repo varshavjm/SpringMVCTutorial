@@ -1,2 +1,2 @@
 
-The program prints the numbers 0 to 99 and their squares.
+The continue and break statements can be used with a label like follows:

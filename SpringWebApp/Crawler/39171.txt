@@ -1,2 +1,0 @@
-
-void is a Java keyword.

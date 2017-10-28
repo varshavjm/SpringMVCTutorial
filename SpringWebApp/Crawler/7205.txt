@@ -1,2 +1,2 @@
 
-For more information, click here to visit the JavaWIDE site.
+If no HelloWorld.class file has been created in the same folder, then you've got an error. Are you launching the javac program correctly?

@@ -1,2 +1,0 @@
-
-In essence, methods are what makes an object behave more like a system.

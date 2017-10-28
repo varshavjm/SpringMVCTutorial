@@ -1,2 +1,2 @@
 
-Question 3.12: You have mail addresses in the following form: <firstName>.<lastName>@<companyName>.org
+When an object is created, a reference to the object is also created. The object can not be accessed directly in Java, only through this object reference. This object reference has a type assigned to it. We need this type when passing the object reference to a method as a parameter. Java does strong type checking.

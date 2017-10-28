@@ -1,2 +1,2 @@
 
-This evaluates boolean expression1, and if it is true then the conditional expression has the value of expression1; otherwise the conditional expression has the value of expression2.
+Starting in J2SE 7.0, the switch statement can also be used with an String value instead of an integer.

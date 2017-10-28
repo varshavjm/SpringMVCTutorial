@@ -1,2 +1,2 @@
 
-The finalize method should always be declared protected to prevent other classes from calling the finalize method.
+Keywords are special tokens in the language which have reserved use in the language. Keywords may not be used as identifiers in Java — you cannot declare a field whose name is a keyword, for instance.

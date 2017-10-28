@@ -1,2 +1,2 @@
 
-goto is a reserved keyword, presently not being used.
+The syntax to mark a method synchronized is:

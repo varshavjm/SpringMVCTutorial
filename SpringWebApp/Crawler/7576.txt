@@ -1,2 +1,2 @@
 
-When the method returns nothing, the return keyword at the end of the method is optional. When the execution flow reaches the return keyword, the method execution is stopped and the execution flow returns to the caller method. The return keyword can be used anywhere in the method as long as there is a way to execute the instructions below:
+The name has not changed because the method has changed the reference and not the object itself. The behavior is the same as if the method was in-lined and the parameters were assigned to new variable names:

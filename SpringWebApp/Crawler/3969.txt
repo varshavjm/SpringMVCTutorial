@@ -1,2 +1,2 @@
 
-Three things can happen in a try block. First, no exception is thrown:
+Syntax for methods:

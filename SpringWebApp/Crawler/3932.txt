@@ -1,2 +1,2 @@
 
-The nominal wrapper class is the java.lang.Character class when you need to store a char value but an object reference is required.
+It checks if an object reference is an instance of a type, and returns a boolean value;

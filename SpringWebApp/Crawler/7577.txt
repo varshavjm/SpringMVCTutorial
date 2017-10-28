@@ -1,2 +1,2 @@
 
-In the code section 3.68, the return keyword at line 5 is well placed because the instructions below can be reached when a is negative or equal to 0. However, the return keyword at line 8 is badly placed because the instructions below can't be reached.
+Java SE 5.0 added syntactic support for methods with variable argument list, which simplifies the typesafe usage of methods requiring a variable number of arguments. Less formally, these parameters are called varargs[2]. The type of a variable parameter must be followed with ..., and Java will box all the arguments into an array:

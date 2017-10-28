@@ -1,2 +1,2 @@
 
-Look at the static method intValue:
+The goals for Eclipse are twofold:

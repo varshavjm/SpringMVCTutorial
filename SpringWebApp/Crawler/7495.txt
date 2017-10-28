@@ -1,2 +1,2 @@
 
-Question 3.6: Which of the ones below are proper variable identifiers?
+Now, that's pathetic. Thankfully, there's a data type that handles large number of characters, it's called a String. A string can be initialized as follows:

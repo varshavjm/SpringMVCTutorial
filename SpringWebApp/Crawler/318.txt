@@ -1,2 +1,2 @@
 
-In general there are four constructor types: default, non-default, copy, and cloning.
+The simplest way to log your code is to print in the standard output, that is to say to use System.out.println();. Ftiercel (discuss • contribs) 19:29, 11 March 2013 (UTC)

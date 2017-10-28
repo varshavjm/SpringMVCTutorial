@@ -1,2 +1,2 @@
 
-Actually, each cell does contain a binary digit, as one bit is roughly equivalent to 1 and an empty cell in the memory signifies 0. A single binary digit can only hold two possible values: a zero or a one.
+The data types that one can use for integer numbers are byte, short, int and long but when it comes to floating point numbers, we use float or double. Now that we know that, we can modify the code in the code section 3.53 as:

@@ -1,2 +1,2 @@
 
-If your computer emits beeps, then you may have illegal characters in your HelloWorld.java.
+The convention is that package names and directory names corresponding to the package consist of only lower case letters.

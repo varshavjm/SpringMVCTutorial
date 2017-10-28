@@ -1,2 +1,2 @@
 
-Actually, there are no two-dimensional arrays in Java. However, an array can contain any class of object, including an array:
+It's not exactly equivalent to two-dimensional arrays because the size of the sub-arrays may vary. The sub-array reference can even be null. Consider:

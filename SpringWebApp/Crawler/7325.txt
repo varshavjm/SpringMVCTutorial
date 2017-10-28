@@ -1,2 +1,2 @@
 
-Kawa is basically a Java editor developed by Tek-Tools. It does not include wizards and GUI tools, best suited to experienced Java programmers in small and midsized development teams. It looks that there is no new development for Kawa.
+Java uses a syntax similar to the C programming language and therefore if one learns the Java programming syntax, they automatically would be able to read and write programs in similar languages — C, C++ and C#

@@ -1,2 +1,2 @@
 
-Java's primitive types are boolean, byte, char, short, int, long, float and double. Each of which are also Java language keywords.
+Whitespace in Java is used to separate the tokens in a Java source file. Whitespace is required in some places, such as between access modifiers, type names and Identifiers, and is used to improve readability elsewhere.

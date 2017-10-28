@@ -1,2 +1,2 @@
 
-Open up your editing program and create a new file saved as Loop.java. Now type or copy the following code:
+The for loop is like a template version of the while loop. The alternative code using a while loop would be as follows:

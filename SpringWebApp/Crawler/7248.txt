@@ -1,2 +1,2 @@
 
-Once you save the file, compile the program:
+  private java.awt.Point point0, point1;

@@ -1,2 +1,2 @@
 
-For example:
+The same code can be written with if-else blocks":

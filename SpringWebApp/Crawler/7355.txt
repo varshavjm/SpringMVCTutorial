@@ -1,2 +1,2 @@
 
-Each assert statement is ended by a semi-colon (;). However, assertions are disabled by default, so you must run the program with the -ea argument in order for assertions to be enabled (java -ea [name of compiled program]).
+A return statement can return the content of a variable or nothing. Beware not to write statements after a return statement which would not be executed! Each return statement is ended by a semi-colon (;).

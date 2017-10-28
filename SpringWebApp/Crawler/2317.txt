@@ -1,2 +1,0 @@
-
-Here is the general contract of the for-each loop:

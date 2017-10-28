@@ -1,2 +1,2 @@
 
-A method can have both normal parameters and a variable parameter but the variable parameter must always be the last parameter. For instance, if the programmer is required to use a minimum number of parameters, those parameters can be specified before the variable argument:
+On the right hand side a String object is created represented by the string literal. Its object reference is assigned to the str variable.

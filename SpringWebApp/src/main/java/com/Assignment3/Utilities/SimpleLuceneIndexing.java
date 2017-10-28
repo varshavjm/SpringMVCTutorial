@@ -114,8 +114,10 @@ public class SimpleLuceneIndexing {
 			String term = charTermAttribute.toString();
 			sb.append(term + " ");
 		}
-	//	String tempQuery=ExudeData.getInstance().filterStoppings(sb.toString());
-	//	return tempQuery;
+		
+		//String tempQuery=ExudeData.getInstance().filterStoppings(sb.toString());
+		//tempQuery=ExudeData.getInstance().filterStoppings(sb.toString());
+		//return tempQuery;
 		return sb.toString();
 	}
 
@@ -163,7 +165,7 @@ public class SimpleLuceneIndexing {
 
 		
 	}
-	public static String[] getRelevantFilesFromQuery(String query) throws IOException, ParseException {
+	public static  String[] getRelevantFilesFromQuery(String query) throws IOException, ParseException {
 
 		
 		//Query string! You can change this for text  
@@ -182,13 +184,13 @@ public class SimpleLuceneIndexing {
 		System.out.println("My query "+q.toString());
 		TopScoreDocCollector collector = null;
 		IndexSearcher searcher = null;
-		if(ram==null)
-			System.out.println("Ram is null");
+		if(ram==null) {
+			System.err.println("Ram is null");	
+		}
 		
 		IndexReader reader = DirectoryReader.open(ram);
 		//Create TF-IDF
 		LinkedHashMap<String,Double> map= createHashMap(q);
-		//map=fillTFIDF(map,reader);
 		//Create TF-IDF
 		//Create new query based on popular keywords from HashMap
 		Fields fields = MultiFields.getFields(reader);
@@ -207,7 +209,7 @@ public class SimpleLuceneIndexing {
 		}
 		
 		Map<String,Double>newMap=sortByValues(map);
-		System.out.println(newMap);
+		//System.out.println(newMap);
 	
 		//Extract top 10 keywords from the query
 		StringBuilder bld= new StringBuilder();
@@ -235,10 +237,10 @@ public class SimpleLuceneIndexing {
 		System.out.println("Found " + hits.length + " hits.");
 		for (int i = 0; i < hits.length; ++i) {
 			int docId = hits[i].doc;
-			Document d;
+			Document d=new Document();
 			d = searcher.doc(docId);
 
-			//System.out.println((i + 1) + ". " + d.get("filename"));
+		//	System.out.println((i + 1) + ". " + d.get("filename"));
 			result[i]=d.get("filename");
 		}
 		reader.close();

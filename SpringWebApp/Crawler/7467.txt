@@ -1,2 +1,2 @@
 
-Java has several operators that can be used to compare variables. For example, how would you tell if one variable has a greater value than another? The answer: use the "greater-than" operator.
+In the Java programming language, the words field and variable are both one and the same thing. Variables are devices that are used to store data, such as a number, or a string of character data.

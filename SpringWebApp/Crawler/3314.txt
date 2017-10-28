@@ -1,2 +1,2 @@
 
-Question 3.21: Consider the following code:
+Print the whole alphabet in the standard output.

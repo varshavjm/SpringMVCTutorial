@@ -1,2 +1,2 @@
 
-catch is a keyword.
+Use the '*' character to declare all the classes belonging to the package.

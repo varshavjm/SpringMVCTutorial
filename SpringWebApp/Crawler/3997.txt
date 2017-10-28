@@ -1,2 +1,2 @@
 
-For example:
+volatile is a keyword.

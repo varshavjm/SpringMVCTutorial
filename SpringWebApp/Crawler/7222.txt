@@ -1,2 +1,2 @@
 
-has to be in a directory named en which has to be a sub-directory of wikibooks which in turn has to be a sub-directory of org resulting in org/wikibooks/en on Linux or org\wikibooks\en on Windows.
+The build.xml file contains all the information needed to build the application.

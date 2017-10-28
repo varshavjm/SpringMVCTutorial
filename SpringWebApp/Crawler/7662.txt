@@ -1,2 +1,2 @@
 
-Primitive wrapper objects were Java's way of allowing one to treat primitive data types as though they were objects. Consequently, one was expected to wrap one's primitive data type with the corresponding primitive wrapper object, as shown above.
+Since associative arrays depend on both the equals and hashCode methods, there is an important contract between these two methods that must be maintained if the objects are to be inserted into a Map:

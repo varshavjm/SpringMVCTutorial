@@ -1,2 +1,2 @@
 
-A throw statement exits from a method and so on and so on or it is caught by a try/catch block. It does not return a variable but an exception:
+The if block may optionally be followed by an else block which will execute if that boolean expression is false. The structure of an if block is as follows:

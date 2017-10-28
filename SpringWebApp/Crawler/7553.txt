@@ -1,2 +1,2 @@
 
-In Java, you may enter integer numbers in several formats:
+In concatenation operations, the values in brackets are concatenated first. Then the values are concatenated from the left to the right. Be careful when mixing character literals and integers in String concatenation operations:

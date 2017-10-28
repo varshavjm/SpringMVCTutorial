@@ -1,2 +1,2 @@
 
-The convention is that package names and directory names corresponding to the package consist of only lower case letters.
+To debug into Java system classes such as String and ArrayList, you need a special version of the JRE which is compiled with "debug information". The JRE included inside the JDK provides this info, but the regular JRE does not. Regular JRE does not include this info to ensure better performance.

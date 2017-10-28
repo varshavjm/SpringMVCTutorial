@@ -1,2 +1,2 @@
 
-for is a Java keyword.
+synchronized is a keyword.

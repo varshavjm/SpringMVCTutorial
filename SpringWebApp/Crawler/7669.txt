@@ -1,2 +1,2 @@
 
-The java.lang.Object.clone() method returns a new object that is a copy of the current object. Classes must implement the marker interface java.lang.Cloneable to indicate that they can be cloned.
+The thread calling wait is blocked (removed from the set of executable threads) and added to the object's wait list. The thread remains in the object's wait list until one of three events occurs:

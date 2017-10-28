@@ -1,2 +1,2 @@
 
-Oracle's Java Code Conventions recommend that the braces should always be used.
+In this example, since the integer variable n is equal to 2, case 2 will execute, make x equal to 4. Thus, 4 is returned by the method.

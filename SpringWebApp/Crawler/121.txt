@@ -1,2 +1,0 @@
-
-The primary goals in the creation of the Java language:

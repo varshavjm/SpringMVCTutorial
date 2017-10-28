@@ -1,2 +1,2 @@
 
-Floating point numbers consist of:
+Explain the results seen.

@@ -1,2 +1,2 @@
 
-The intValue() method delegates its job to the Integer.parseInt() method. The main method could have called Integer.parseInt() directly; the intValue() method simply makes the main() method slightly more readable.
+Java represents sequences of character data, or String, with the reference type java.lang.String which is most commonly referred to as String. String literals, such as "Distance between " are constants whose type is String.

@@ -1,2 +1,2 @@
 
-} finally {
+To show how these operators are used, here is an example:

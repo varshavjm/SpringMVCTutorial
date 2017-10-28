@@ -1,2 +1,2 @@
 
-It is possible that you have the Java runtime (JRE), but not the JDK. In that case the javac program won't be found, but the java -version will print the JRE version number.
+For the convenience of our readers, the following table presents direct links to the latest JDK for the Linux operating system.

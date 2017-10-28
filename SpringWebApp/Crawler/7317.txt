@@ -1,2 +1,2 @@
 
-IBM's WSAD, and later IBM Rational Software Development Platform, are built on Eclipse.
+Kawa is basically a Java editor developed by Tek-Tools. It does not include wizards and GUI tools, best suited to experienced Java programmers in small and midsized development teams. It looks that there is no new development for Kawa.

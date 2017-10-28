@@ -1,2 +1,2 @@
 
-A constructor is a special method in a class which is used to construct an instance of the class. The constructor can perform initialization for the object, beyond that which the Java VM does automatically. For example, Java will automatically initialize the fields point0 and point1 to null.
+This instance method executes within the context of an implicit Distance object. The instance field references, point0 and point1, refer to instance fields of that implicit object. You can also use the special variable this to explicitly reference the current object. Within an instance method, Java binds the name this to the object on which the method is executing, and the type of this is that of the current class. The body of the printDistance method could also be coded as

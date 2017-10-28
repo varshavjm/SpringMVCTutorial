@@ -1,2 +1,2 @@
 
-To do: Add some exercises like the ones in Variables
+So a JVM should be coded for each platform. And that's the case. So you just have to generate a unique byte code file (a .class file).

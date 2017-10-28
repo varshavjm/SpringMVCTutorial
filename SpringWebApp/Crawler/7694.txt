@@ -1,2 +1,2 @@
 
-An abstract method cannot be final, static nor native. Either you instantiate a concrete sub-class, either you instantiate the abstract class by implementing its abstract methods alongside a new statement:
+The number 65 is the code for 'A' in ASCII.

@@ -1,2 +1,2 @@
 
-This class defines two void methods:
+If the code is written like this:

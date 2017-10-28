@@ -1,2 +1,2 @@
 
-An if statement has two forms:
+Iteration Statements are statements that are used to iterate a block of statements. Such statements are often referred to as loops. Java offers four kinds of iterative statements.

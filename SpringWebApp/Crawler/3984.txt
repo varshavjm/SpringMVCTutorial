@@ -1,2 +1,2 @@
 
-The general syntax of a if, using Extended Backus-Naur Form, is
+As an example, we can show a thread-safe version of a singleton:

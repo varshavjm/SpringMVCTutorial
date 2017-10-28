@@ -1,2 +1,2 @@
 
-A final class cannot be abstract. The final keyword is similar to sealed keyword in C#.
+The counter variable is incremented each time an object is created.

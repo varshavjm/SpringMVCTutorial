@@ -1,2 +1,2 @@
 
-In Java, a class is located in a file similar to its own name. If you want to have a class called SportsCar, its source file needs to be SportsCar.java. The class is created by placing the following in the source file:
+Yes. Singleton constructors are private. When the constructor is private no object of that class can be created outside of that class. How and when an object can be created of that class is defined by that class.

@@ -1,2 +1,0 @@
-
-Ant tool is written in Java and is open source, so it can be extended if there is a task you'd like to be done during the build that is not in the predefined tasks list. It is very easy to hook your ant task code to the other tasks: your code only needs to be in the classpath, and the Ant tool will load it at runtime. For more information about writing your own Ant tasks, please see the project website at http://ant.apache.org/.

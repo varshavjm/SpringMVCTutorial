@@ -1,2 +1,2 @@
 
-Here is an example to illustrate:
+If a case does not end with the break statement, then the next case will be checked, otherwise the execution will jump to the end of the switch statement.

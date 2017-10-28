@@ -1,2 +1,2 @@
 
-Another useful application could be to split the String text based on the new line character, so you could process the text line by line.
+In Java, a class is located in a file similar to its own name. If you want to have a class called SportsCar, its source file needs to be SportsCar.java. The class is created by placing the following in the source file:

@@ -1,2 +1,0 @@
-
-The next most popular way to build applications is using an Integrated Development Environment (IDE).

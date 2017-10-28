@@ -1,2 +1,2 @@
 
-The structure of a switch statement is as follows:
+Using loops we can solve all these problems. Once you get you head around them they will be invaluable to solving many problems in programming.

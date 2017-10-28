@@ -1,2 +1,0 @@
-
-Use packages to avoid name collisions. To hide as much information as possible use the access modifiers properly.

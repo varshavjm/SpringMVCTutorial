@@ -1,2 +1,2 @@
 
-} catch (exception1) {
+To see how these operators are used, look at this example:

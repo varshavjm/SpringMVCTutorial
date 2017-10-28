@@ -1,2 +1,2 @@
 
-To aggregate same type java objects to an array, java has a special array object for that. Both java objects and primitive types can be aggregated to arrays.
+However, the only problem with putting multiple statements on one line is, it's very difficult to read it. It doesn't look that intimidating at first, but once you've got a significant amount of code, it's usually better to organize it in a way that makes sense. It would look more complex and incomprehensible written as it is in Listing 3.4.

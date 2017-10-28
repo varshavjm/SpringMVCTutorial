@@ -1,2 +1,2 @@
 
-A return statement can return the content of a variable or nothing. Beware not to write statements after a return statement which would not be executed! Each return statement is ended by a semi-colon (;).
+The if ... else statement is used to conditionally execute one of two blocks of statements, depending on the result of a boolean condition.

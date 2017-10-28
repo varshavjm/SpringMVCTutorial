@@ -1,2 +1,0 @@
-
-Conditional expressions use the compound ?: operator. Syntax:

@@ -1,2 +1,2 @@
 
-65 is the numeric representation of character 'A' , or its ASCII code.
+instanceof is a keyword.

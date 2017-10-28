@@ -1,2 +1,2 @@
 
-Look at this example to see how it's done:
+while loops are the simplest form of loop. The while loop repeats a block of code while the specified condition is true. Here is the structure of a while loop:

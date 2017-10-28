@@ -1,2 +1,0 @@
-
-Static methods cannot call non static methods. The this current object reference is also not available in static methods.

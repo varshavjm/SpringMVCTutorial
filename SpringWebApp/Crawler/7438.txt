@@ -1,2 +1,2 @@
 
-Here is the general contract of the for-each loop:
+So the snippet first iterates on each positive integer from 2 using the while loop:

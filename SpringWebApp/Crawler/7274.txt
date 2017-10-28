@@ -1,2 +1,2 @@
 
-This is the constructor for the Distance class. Distance implicitly extends from java.lang.Object. Java inserts a call to the super constructor as the first executable statement of the constructor if there is not one explicitly coded. The above constructor body is equivalent to the following body with the explicit super constructor call:
+to construct a String to pass to the System.out.println(). This expression is a series of String concatenation methods which concatenates Strings or the String representation of primitive types (such as doubles) or objects, and returns a long string. For example, the result of this expression for the points (0,3) and (4,0) is the String

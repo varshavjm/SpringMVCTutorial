@@ -1,2 +1,2 @@
 
-The output:
+while is a Java keyword.

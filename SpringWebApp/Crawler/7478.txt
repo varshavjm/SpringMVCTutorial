@@ -1,2 +1,2 @@
 
-In the Java programming language, the words field and variable are both one and the same thing. Variables are devices that are used to store data, such as a number, or a string of character data.
+Because we have provided a data type for the variable, we have a hint as to what the variable can and cannot hold. We know that int (integer) data type supports numbers that are either positive or negative integers. Therefore once a variable is created, we can provide it with any integer value using the following syntax. This process is called an assignment operation.

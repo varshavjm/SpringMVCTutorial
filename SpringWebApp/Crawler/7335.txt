@@ -1,2 +1,2 @@
 
-Use packages to avoid name collisions. To hide as much information as possible use the access modifiers properly.
+Java places its statements within a class declaration and, in the class declaration, the statements are usually placed in a method declaration, as above.

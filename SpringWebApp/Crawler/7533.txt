@@ -1,2 +1,2 @@
 
-The following table shows the conversions between primitive types, it shows the casting operation for explicit conversions:
+Java has besides arithmetic operators a set of bit operators to manipulate the bits in a number, and a set of logical operators. The bitwise logical operators are

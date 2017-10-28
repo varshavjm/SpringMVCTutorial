@@ -1,2 +1,2 @@
 
-Question 3.5: Consider the following code:
+Question 3.6: Which of the ones below are proper variable identifiers?

@@ -1,2 +1,2 @@
 
-The method is supposed to return a int but when a is negative or equal to 0, it returns nothing.
+A method may return a value (which can be a primitive type or an object reference). If the method does not return a value we use the void Java keyword.

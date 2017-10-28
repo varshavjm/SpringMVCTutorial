@@ -1,2 +1,2 @@
 
-The code listing 3.8 is a simulation of playing a game called Lucky Sevens. It is a dice game where the player rolls two dice. If the numbers on the dice add up to seven, he wins $4. If they do not, he loses $1. The game shows how to use control flow in a program as well as the fruitlessness of gambling.
+In Java, boolean logic has a useful property called short circuiting. This means that expressions will only be evaluated as far as necessary. In the expression (a && b), if a is false, then b will not be evaluated because the expression will be false no matter what. Here is an example that shows that the second expression is not automatically checked:

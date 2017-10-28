@@ -1,2 +1,2 @@
 
-An assertion checks if a condition is true:
+A return statement exits from a block, so it is often the last statement of a method:

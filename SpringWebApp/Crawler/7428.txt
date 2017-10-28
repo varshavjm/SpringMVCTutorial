@@ -1,2 +1,2 @@
 
-The do-while loop is functionally similar to the while loop, except the condition is evaluated AFTER the statement executes It is useful when we try to find a data that does the job by randomly browsing an amount of data.
+The example iterates through an array of words and prints them out like a sentence. What the loop does is iterate through sentence and assign the value of each index to word, then execute the code block.

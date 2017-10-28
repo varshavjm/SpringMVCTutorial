@@ -1,2 +1,2 @@
 
-if...else statements also allow for the use of another statement, else if. This statement is used to provide another if statement to the conditional that can only be executed if the others are not true. For example:
+Here the condition is an expression. An expression as discussed earlier is any statement that returns a value. While condition statements evaluate to a boolean value, that is, either true or false. As long as the condition is true, the loop will iterate the block of code over and over and again. Once the condition evaluates to false, the loop exits to the next statement outside the loop.

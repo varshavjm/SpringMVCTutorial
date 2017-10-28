@@ -1,2 +1,2 @@
 
-instanceof is a keyword.
+How the catch-blocks are evaluated see Catching Rule

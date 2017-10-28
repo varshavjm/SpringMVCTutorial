@@ -1,2 +1,2 @@
 
-To disable this property, you can use & instead of && and | instead of || but it's not recommended.
+The following code demonstrates how a simple variable can be created. This process is known as variable declaration.

@@ -1,2 +1,2 @@
 
-The class doesn't do anything yet, as you will need to add methods and field variables first.
+Java uses unicode, while C++ uses ASCII. Unicode consists of a repertoire of about 100,000 characters, which is much more than what the ASCII character-set can represent. See also Java Programming/Syntax/Unicode Source

@@ -1,2 +1,2 @@
 
-For example:
+It starts a looping block.

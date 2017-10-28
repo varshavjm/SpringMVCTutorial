@@ -1,2 +1,2 @@
 
-Note: Fields are called different things in different languages. They may be called state identifiers, properties or member variables in other programming language syntax. Java uses the words fields and properties in different contexts, as would be understood from upcoming sections.
+What sets the two objects apart is their current state. Both the objects have different states and thus stand out as two different objects even though they were created from the same template or class definition.

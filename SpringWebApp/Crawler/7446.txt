@@ -1,2 +1,2 @@
 
-What will be printed in the standard output?
+The try-catch blocks are used to catch any exceptions or other throwable objects within the code.

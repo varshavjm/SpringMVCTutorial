@@ -1,2 +1,2 @@
 
-The Java source file name must be the same as the public class name that the file contains. There can be only one public class defined per file. The Java class name is case sensitive, as is the source file name.
+The build.xml file is generally kept in the root directory of the java project. Ant parses this file and executes the tasks therein. Below we give an example build.xml file.

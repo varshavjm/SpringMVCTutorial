@@ -1,2 +1,2 @@
 
-Here, daysInYear is the name of the variable that holds 365 as it's value, while short is the data type for that particular value. Other uses of integer data types in Java might see you write code such as this given below:
+After creating a variable, one can manipulate its value by using Java's operators: + (addition), - (subtraction), * (multiplication), / (integer division), % (modulo or remainder), ++ (pre- & postincrement by one), -- (pre- & postdecrement by one).

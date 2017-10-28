@@ -1,2 +1,0 @@
-
-By now, you might truly be able to grasp the power of the Java programming language. With Java, there are many possibilities. Yet not every programmer gets to program applications that take unmanned vehicles onto other planets. Software that we encounter in our daily life is somewhat humble in that respect. Software in Java, however, covers a vast area of the computing ecosphere. Here are just a few examples of the ubiquitous nature of Java applications in real-life:

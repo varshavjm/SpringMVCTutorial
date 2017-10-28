@@ -1,2 +1,2 @@
 
-Assertions may be declared using the following syntax:
+catch is a keyword.

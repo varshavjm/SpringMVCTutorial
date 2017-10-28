@@ -1,2 +1,2 @@
 
-Floating-point math never throws exceptions. Dividing a non-zero value by 0 equals infinity. Dividing a non-infinite value by infinity equals 0.
+int x = 10; => 10 x = x + 10; => 20 x = 2 * x; => 40 x = x - 19; => 21 x = x / 3; => 7

@@ -1,2 +1,2 @@
 
-implements is a Java keyword.
+Example #1 for case 1:

@@ -1,2 +1,2 @@
 
-  private java.awt.Point point0, point1;
+The declaration

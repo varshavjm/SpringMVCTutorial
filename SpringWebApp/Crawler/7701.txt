@@ -1,2 +1,2 @@
 
-Assertions are enabled with the Java -ea or -enableassertions runtime option. See your Java environment documentation for additional options for controlling assertions.
+The nominal wrapper class is the java.lang.Character class when you need to store a char value but an object reference is required.

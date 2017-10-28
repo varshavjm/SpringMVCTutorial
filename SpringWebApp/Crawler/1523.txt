@@ -1,2 +1,0 @@
-
-... then a JRE is installed. If you get an error, such as:

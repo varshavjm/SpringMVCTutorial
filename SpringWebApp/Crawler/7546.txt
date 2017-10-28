@@ -1,2 +1,2 @@
 
-Besides these logical bitwise functions, there are also operators to assign numbers to variables (x = -5):
+Here, integer digits represents one or more of the digits 0 through 9.

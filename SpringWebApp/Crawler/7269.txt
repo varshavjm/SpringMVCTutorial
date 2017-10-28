@@ -1,2 +1,2 @@
 
-It is not necessary and most programmers omit such default assignments.
+The printDistance() method prints the distance between the two points to the standard output (normally the console).

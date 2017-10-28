@@ -1,2 +1,2 @@
 
-The word Java, by itself, usually refers to the Java programming language which was designed for use with the Java platform. Programming languages are typically outside of the scope of the phrase "platform". However, Oracle does not encourage the use of any other languages with the platform, and lists the Java programming language as a core part of the Java 2 platform. The language and runtime are therefore commonly considered a single unit.
+We conceptualize the world around us in terms of systems. A system is a web of interconnected objects working together in tandem. In the systems theory, a system is set out as a single entity within a world surrounded by an environment. A system interacts with its surrounding environment using messages of two distinct types:

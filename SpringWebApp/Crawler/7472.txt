@@ -1,2 +1,2 @@
 
-Here is a list of four common boolean operators in Java:
+In the code listing 3.9, are examples of all four kinds of variables.

@@ -1,2 +1,2 @@
 
-With Java 1.5 a set of monitoring and management tools have been added to the JDK, in addition to a set of troubleshooting tools.
+All the monitoring and management and troubleshooting tools are currently marked as "experimental" (which does not affect jdb). So they might disappear in future JDKs.

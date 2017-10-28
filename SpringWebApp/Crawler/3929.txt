@@ -1,2 +1,2 @@
 
-For example:
+Once the static members have been imported, they may be used without qualification:

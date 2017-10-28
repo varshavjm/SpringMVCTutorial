@@ -1,2 +1,2 @@
 
-On a machine using the Windows operating system, one can invoke the Registry Editor utility by typing REGEDIT in the Run dialog. In the window that opens subsequently, if you traverse through the hierarchy HKEY_LOCAL_MACHINE > SOFTWARE > JavaSoft > Java Development Kit on the left-hand.
+For the convenience of our readers, the following table presents direct links to the latest JDK for the Windows operating system.

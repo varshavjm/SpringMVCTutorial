@@ -1,2 +1,2 @@
 
-The following code demonstrates how a simple variable can be created. This process is known as variable declaration.
+Do you know what this program does? Well, it multiplies two values. That much you guessed right. But, do you know what those values are? Exactly, you don't. Now consider this code:

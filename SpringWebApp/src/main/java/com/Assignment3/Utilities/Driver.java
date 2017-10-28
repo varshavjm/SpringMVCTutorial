@@ -5,7 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -21,18 +23,34 @@ public class Driver {
 		//Write HashMap to file
 		HashMap<Integer,String>resultLinks=crawler.getLinksMap();
 		writeToFile("./Crawler/index.txt",resultLinks);
+		HashSet<Integer> set= new HashSet<>();
 		for(Entry entry:resultLinks.entrySet()) {
-		writeTextOfLinkToFile(entry);
+		//	System.out.println("Crawling "+ entry.getValue());
+			writeTextOfLinkToFile(entry,set);
 		}
-		
-		
-		
+
 	}
 	
+//Return HashedValue	
+	private static int getHashedValue(String str) {
+		str= preprocessString(str);
+		int hash = 7;
+		for (int i = 0; i < str.length(); i++) {
+		    hash = hash*31 + str.charAt(i);
+		}
+		return hash;
+	}
 	
-	
+//Lowercase and remove whitespaces
+	private static String preprocessString(String str) {
+		str=str.toLowerCase();
+		str=str.trim();
+		str=str.replace("\\s+", "");
+		return str;
+	}
 
-	private static void writeTextOfLinkToFile(Entry entry) {
+//Write paragraphs to file
+	private static void writeTextOfLinkToFile(Entry entry, Set<Integer>paraHashSet) {
 		File directory = new File("./Crawler/");
 		boolean result=false;
 		if(!directory.exists())
@@ -46,7 +64,6 @@ public class Driver {
 			try {
 				doc = Jsoup.connect(link).get();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		// Get paragraph elements and create a file for each
@@ -55,7 +72,14 @@ public class Driver {
 		    for (Element paragraph : paragraphs) {
 		     if(paragraph.text().length()<=10)
 		    	 		continue;
-	     
+		     
+		     int hashValue=getHashedValue(paragraph.text());
+		     if(paraHashSet.contains(hashValue)) {
+	//	    	 System.out.println("****Duplicate paragraph found!!!*****");
+		    	 continue;
+		     }
+		     paraHashSet.add(hashValue);
+		     
 		    	File f= new File("./Crawler/"+Integer.toString((Integer)entry.getKey())+Integer.toString(count)+".txt");
 		    	count++;
 				BufferedWriter writer = null;
@@ -74,7 +98,6 @@ public class Driver {
 
 //Write links to index files
 	private static void writeToFile(String fileName, HashMap<Integer, String> resultLinks) {
-	
 		boolean result=false;
 		File directory = new File("./Crawler/");
 		if(!directory.exists())

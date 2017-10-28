@@ -1,2 +1,2 @@
 
-The Java programming language uses a programming paradigm called object-oriented programming (OOP), which shows you exactly what a programmer needs to be doing. According to OOP, every object or problem in real-life can be translated into a virtual object within your computer system.
+Note: Class definitions have different names in different languages. They are sometimes called type definitions, object specifications or templates as well

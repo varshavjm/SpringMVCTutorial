@@ -1,2 +1,2 @@
 
-As you can see in code section 3.70, the modifyValue() method has not modified the value of i.
+In the above example the getPersonInfoById method returns an object reference that contains both values of the name and the age. See below how you may use that object:

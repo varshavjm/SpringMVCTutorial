@@ -1,2 +1,2 @@
 
-class is a Java keyword which begins the declaration and definition of a class.
+The <object-reference> instanceof Object will return true for all non-null object references, since all Java objects are inherited from Object. instanceof will always return false if <object-reference> is null.

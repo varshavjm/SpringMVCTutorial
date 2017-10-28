@@ -1,2 +1,2 @@
 
-byte is a keyword which designates the 8 bit signed integer primitive type.
+default is a Java keyword.

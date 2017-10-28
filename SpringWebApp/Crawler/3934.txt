@@ -1,2 +1,2 @@
 
-The general syntax of a class declaration, using Extended Backus-Naur Form, is
+Run the program:

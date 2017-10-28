@@ -1,2 +1,0 @@
-
-volatile is a keyword.

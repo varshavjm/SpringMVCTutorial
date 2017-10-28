@@ -1,2 +1,2 @@
 
-JINI was an attempt from Sun to address this flexibility problem. In JINI, the client download the component interface implementation and execute it in the client space.
+So we need to mix (somehow) EJB and JINI technologies to come up with a true flexible component based technology.

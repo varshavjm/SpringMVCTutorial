@@ -1,2 +1,2 @@
 
-Here's what try-catch blocks looks like:
+Here is a list of the comparative operators in Java:

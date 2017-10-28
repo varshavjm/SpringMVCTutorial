@@ -1,2 +1,2 @@
 
-Type is basically a list of features/operations, that can be performed through that object reference. The object reference type is basically a contract that guarantees that those operations will be there at run time.
+Methods in the java.lang.Object class are inherited, and thus shared in common by all classes.

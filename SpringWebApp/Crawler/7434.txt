@@ -1,2 +1,2 @@
 
-The code section 3.31 shows how to iterate with the for loop using multiple variables and the code section 3.32 shows how any of the parameters of a for loop can be skipped. Skip them all, and you have an infinitely repeating loop.
+As the break and continue statements reduce the readability of the code, it is recommended to reduce their use or replace them with the use of if and while blocks. Some IDE refactoring operations will fail because of such statements.

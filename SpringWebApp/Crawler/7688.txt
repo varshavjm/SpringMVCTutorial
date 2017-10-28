@@ -1,2 +1,2 @@
 
-Keywords are special tokens in the language which have reserved use in the language. Keywords may not be used as identifiers in Java — you cannot declare a field whose name is a keyword, for instance.
+The following is a declaration of a private boolean field named initialized, and its use in a method named synchronizeConnection.

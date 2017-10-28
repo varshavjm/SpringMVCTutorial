@@ -1,2 +1,0 @@
-
-strictfp is a java keyword, since Java 1.2 .

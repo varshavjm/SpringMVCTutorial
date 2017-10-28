@@ -1,2 +1,2 @@
 
-In Java, boolean logic has a useful property called short circuiting. This means that expressions will only be evaluated as far as necessary. In the expression (a && b), if a is false, then b will not be evaluated because the expression will be false no matter what. Here is an example that shows that the second expression is not automatically checked:
+Upon creating a variable, we basically create a new address space and give it a unique name. Java goes one step further and lets you define what you can place within the variable — in Java parlance you call this a data type. So, you essentially have to do two things in order to create a variable:

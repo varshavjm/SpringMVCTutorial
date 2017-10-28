@@ -1,2 +1,2 @@
 
-If statements can also be made more complex using the else if combination:
+if...else statements also allow for the use of another statement, else if. This statement is used to provide another if statement to the conditional that can only be executed if the others are not true. For example:

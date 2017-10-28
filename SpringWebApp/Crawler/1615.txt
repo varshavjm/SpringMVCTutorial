@@ -1,2 +1,0 @@
-
-A class with this package declaration

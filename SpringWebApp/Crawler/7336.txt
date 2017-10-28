@@ -1,2 +1,2 @@
 
-Create methods that do one and if possible only one thing/task. If possible have separate method that changes the object state.
+The simplest statement is a variable declaration:

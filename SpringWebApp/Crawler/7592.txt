@@ -1,2 +1,2 @@
 
-When calling the method, a programmer can simply separate the points by commas, without having to explicitly create an array of Point objects. Within the method, the points can be referenced as points[0], points[1], etc. If no points are passed, the array has a length of zero.
+String is a class built into the Java language defined in the java.lang package. It represents character strings. Strings are ubiquitous in Java. Study the String class and its methods carefully. It will serve you well to know how to manipulate them skillfully. String literals in Java programs, such as "abc", are implemented as instances of this class like this:
