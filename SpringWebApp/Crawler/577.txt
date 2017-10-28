@@ -1,0 +1,2 @@
+
+When interfaces are involved, the implementation declaration must have a throws-clause that is compatible with the interface declarations.

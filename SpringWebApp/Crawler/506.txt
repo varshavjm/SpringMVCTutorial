@@ -1,0 +1,2 @@
+
+Can my collection contain the null element?

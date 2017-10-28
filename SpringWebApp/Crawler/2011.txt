@@ -1,0 +1,2 @@
+
+To aggregate same type java objects to an array, java has a special array object for that. Both java objects and primitive types can be aggregated to arrays.

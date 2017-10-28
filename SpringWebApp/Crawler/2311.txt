@@ -1,0 +1,2 @@
+
+To clarify how a for loop is used, here is an example:

@@ -1,0 +1,2 @@
+
+RMI is much simpler to use than CORBA, so in an only Java environment RMI should be used.

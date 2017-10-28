@@ -1,0 +1,2 @@
+
+It checks if an object reference is an instance of a type, and returns a boolean value;

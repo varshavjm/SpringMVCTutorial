@@ -1,0 +1,2 @@
+
+Before selecting a particular collection implementation, ask the following question:

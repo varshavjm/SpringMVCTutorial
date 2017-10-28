@@ -1,0 +1,2 @@
+
+native2ascii makes most sense when integrated into a build system to automate the conversion.

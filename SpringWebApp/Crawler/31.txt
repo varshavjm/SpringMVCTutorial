@@ -1,0 +1,2 @@
+
+Generics come from other languages, see article on w:Generic programming for more information.

@@ -1,0 +1,2 @@
+
+If no @Retention policy is specified, it defaults to RetentionPolicy.CLASS.

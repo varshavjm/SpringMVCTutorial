@@ -1,0 +1,2 @@
+
+What is printed in the standard output?

@@ -1,0 +1,2 @@
+
+Abstraction is the process of representing real-life problems and objects into your programs.

@@ -1,0 +1,2 @@
+
+Now suppose you define a comparator that can compare Animals:

@@ -1,0 +1,2 @@
+
+Output for Adding Element and Size of ArrayList

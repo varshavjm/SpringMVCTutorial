@@ -1,0 +1,2 @@
+
+Can my collection contain the same elements, i.e. are duplicates allowed?

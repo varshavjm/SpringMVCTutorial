@@ -1,0 +1,2 @@
+
+The previous chapter "Getting started" was a primer course in the basics of understanding how Java programming works. Throughout the chapter, we tackled a variety of concepts that included:

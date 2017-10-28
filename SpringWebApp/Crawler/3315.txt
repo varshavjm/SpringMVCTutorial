@@ -1,0 +1,2 @@
+
+Print the whole alphabet in the standard output.

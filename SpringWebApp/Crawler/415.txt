@@ -1,0 +1,2 @@
+
+When there are no more references to an object, the garbage collector will destroy the object and free its memory, so that the memory can be reused to hold new objects.

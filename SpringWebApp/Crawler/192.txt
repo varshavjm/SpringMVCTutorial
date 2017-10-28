@@ -1,0 +1,2 @@
+
+The goals for Eclipse are twofold:

@@ -1,0 +1,2 @@
+
+It is not necessary and most programmers omit such default assignments.

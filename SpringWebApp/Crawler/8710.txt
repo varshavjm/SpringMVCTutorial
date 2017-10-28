@@ -1,0 +1,2 @@
+
+The syntax for setting a font is setFont(<fontName>, <fontStyle>, <fontSize>).

@@ -1,0 +1,2 @@
+
+double Math.log1p(double) returns ln(parameter+1). It is recommended for small values.

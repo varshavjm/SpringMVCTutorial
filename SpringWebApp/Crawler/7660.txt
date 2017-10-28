@@ -1,0 +1,2 @@
+
+In Java, casts can occur in three ways:

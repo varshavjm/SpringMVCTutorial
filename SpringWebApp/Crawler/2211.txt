@@ -1,0 +1,2 @@
+
+This is equivalent to the following code fragment:

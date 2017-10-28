@@ -1,0 +1,2 @@
+
+The synchronized keyword can be used in two ways:

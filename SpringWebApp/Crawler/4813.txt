@@ -1,0 +1,2 @@
+
+In the above example the class that implements the ActionListener is anonymous. The class is defined where it is instantiated.

@@ -1,0 +1,2 @@
+
+The syntax to mark a method synchronized is:

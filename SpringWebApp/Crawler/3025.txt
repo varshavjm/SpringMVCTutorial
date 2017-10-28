@@ -1,0 +1,2 @@
+
+The second method involves a user-defined beginIndex and endIndex:

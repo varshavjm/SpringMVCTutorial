@@ -1,0 +1,2 @@
+
+It is important to note, that Javadoc and annotation are two different constructs.

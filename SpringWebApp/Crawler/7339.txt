@@ -1,0 +1,2 @@
+
+The most often used data structure in any language is a character string. For this reason java defines a special object that is String.

@@ -1,0 +1,2 @@
+
+CORBA is language independent "Remote Method Invocation" like RMI. RMI only works with Java, CORBA can be used with any languages. For more information see: w:Common Object Request Broker Architecture.

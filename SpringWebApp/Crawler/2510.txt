@@ -1,0 +1,2 @@
+
+The following code demonstrates how a simple variable can be created. This process is known as variable declaration.

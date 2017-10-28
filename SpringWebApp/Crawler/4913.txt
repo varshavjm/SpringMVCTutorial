@@ -1,0 +1,2 @@
+
+aQuestion.getItem() is typed as a string.

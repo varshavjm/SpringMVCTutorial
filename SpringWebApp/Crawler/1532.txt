@@ -1,0 +1,2 @@
+
+Alternatively, you can manually download the Java software from the Oracle website.

@@ -1,0 +1,2 @@
+
+Properties are often implemented with private instance variables, but this is not required.

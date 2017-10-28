@@ -1,0 +1,2 @@
+
+The index of the first character in a string is 0.

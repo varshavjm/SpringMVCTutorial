@@ -1,0 +1,2 @@
+
+The build.xml file contains all the information needed to build the application.

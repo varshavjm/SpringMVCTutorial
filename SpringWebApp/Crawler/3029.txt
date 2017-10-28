@@ -1,0 +1,2 @@
+
+These methods are useful to do a search which is not case sensitive:

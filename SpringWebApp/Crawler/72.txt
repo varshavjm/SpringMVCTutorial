@@ -1,0 +1,2 @@
+
+However, Java is not a basic programming language. In fact, NASA used Java as the driving force (quite literally) behind its Mars Rover missions. Robots, air traffic control systems and the self-checkout barcode scanners in your favorite supermarkets can all be programmed in Java.

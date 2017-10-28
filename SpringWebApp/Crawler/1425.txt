@@ -1,0 +1,2 @@
+
+Notice the keyword void before the name of the method – this tells us that the method walk returns nothing. You can set a method to return any data type – it can be a String or an int as well.

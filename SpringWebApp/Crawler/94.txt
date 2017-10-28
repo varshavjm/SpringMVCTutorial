@@ -1,0 +1,2 @@
+
+The above mentioned applications illustrate the reach and ubiquity of Java applications. Here's another fact: almost 80% of mobile phone vendors adopt Java as their primary platform for the development of applications. The most widely used mobile-based operating system, Android, uses Java as one of its key application platforms — developers are encouraged to develop applications for Android in the Java programming language.

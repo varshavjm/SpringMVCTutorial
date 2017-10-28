@@ -1,0 +1,2 @@
+
+To attach to the current thread and get a JNI interface pointer:

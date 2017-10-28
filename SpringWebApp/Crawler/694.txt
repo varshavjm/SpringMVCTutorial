@@ -1,0 +1,2 @@
+
+Recognizing its usefulness, in Java 5, annotation was added to the Java language. Annotation tags are NOT inside a comment block. An annotation is part of the class and it may be accessed at runtime.

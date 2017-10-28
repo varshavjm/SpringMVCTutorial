@@ -1,0 +1,2 @@
+
+Although each object instance has its own type, each object instance is still strongly typed:

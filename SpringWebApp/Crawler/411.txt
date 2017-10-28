@@ -1,0 +1,2 @@
+
+After compilation, a class is stored on the file system in a '(class-name).class' file.

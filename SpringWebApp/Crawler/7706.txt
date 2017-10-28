@@ -1,0 +1,2 @@
+
+Jumps (breaks) out from a loop. Also used at switch statement.

@@ -1,0 +1,2 @@
+
+To disable this property, you can use & instead of && and | instead of || but it's not recommended.

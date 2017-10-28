@@ -1,0 +1,2 @@
+
+Doing so, a ClassAB object can be casted into InterfaceA, InterfaceB and InterfaceAB.

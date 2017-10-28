@@ -1,0 +1,2 @@
+
+has to be in a directory named example.

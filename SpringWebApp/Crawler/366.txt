@@ -1,0 +1,2 @@
+
+If you want truly random numbers, you can get a hardware random number generator or use a randomness generation service.

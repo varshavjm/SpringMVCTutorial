@@ -1,0 +1,2 @@
+
+Note that you can't import two classes with the same name in two different packages.

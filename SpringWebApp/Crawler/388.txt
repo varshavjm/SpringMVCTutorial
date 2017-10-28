@@ -1,0 +1,2 @@
+
+Slash-star comments may also be placed between any Java tokens, though not recommended:

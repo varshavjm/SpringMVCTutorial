@@ -1,0 +1,2 @@
+
+In the code above you defined two object fields:

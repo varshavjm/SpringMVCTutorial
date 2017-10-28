@@ -1,0 +1,2 @@
+
+The finalize method should always be declared protected to prevent other classes from calling the finalize method.

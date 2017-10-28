@@ -1,0 +1,2 @@
+
+If your computer emits beeps, then you may have illegal characters in your HelloWorld.java.

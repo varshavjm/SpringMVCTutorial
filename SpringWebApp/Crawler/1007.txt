@@ -1,0 +1,2 @@
+
+For example, the following converts a Java string to a native string:

@@ -1,0 +1,2 @@
+
+A synchronized block is marked as:

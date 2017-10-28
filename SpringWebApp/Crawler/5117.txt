@@ -1,0 +1,2 @@
+
+The SortedSet interface has additional methods due to the sorted nature of the 'Set'. Those are:

@@ -1,0 +1,2 @@
+
+The static items can be called on an instantiated object or directly on the class:

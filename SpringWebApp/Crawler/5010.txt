@@ -1,0 +1,2 @@
+
+From a performance perspective, which one needs to be faster, updates or reads?

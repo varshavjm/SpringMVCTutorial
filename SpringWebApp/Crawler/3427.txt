@@ -1,0 +1,2 @@
+
+The MathsUtils class is like an addition to the java.lang.Math class and contains the rounding calculations.

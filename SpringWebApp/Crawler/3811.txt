@@ -1,0 +1,2 @@
+
+Question 3.26: Consider the following code:

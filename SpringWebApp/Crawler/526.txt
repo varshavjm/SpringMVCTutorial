@@ -1,0 +1,2 @@
+
+The capacity grows automatically as elements are added to an array list.

@@ -1,0 +1,2 @@
+
+In the documentation for the Example class, such as the JavaDoc, Example will be shown as annotated with @NotSecret, but not @Secret.

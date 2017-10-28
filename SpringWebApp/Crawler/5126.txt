@@ -1,0 +1,2 @@
+
+The advantages of using the Collection interface are:

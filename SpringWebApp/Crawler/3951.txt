@@ -1,0 +1,2 @@
+
+This enumeration constant then can be passed in to methods:

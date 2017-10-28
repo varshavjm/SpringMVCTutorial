@@ -1,0 +1,2 @@
+
+The Java applet is less and less used. You'd rather use JavaScript when it is possible.

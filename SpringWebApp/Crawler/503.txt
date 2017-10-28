@@ -1,0 +1,2 @@
+
+A collection is better when you have to access all the items at once. A map is better when you have to randomly access an item regularly.

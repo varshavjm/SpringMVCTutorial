@@ -1,0 +1,2 @@
+
+First, we have to analyze the display. We have four separate areas of components:

@@ -1,0 +1,2 @@
+
+Alongside declaring and defining objects, their fields and methods, a programmer also has the ability to define the levels of access on those elements. This is done using keywords known as access modifiers.

@@ -1,0 +1,2 @@
+
+The class is loaded into memory when we are about to create the first object from that class, or when we call one of its static functions.

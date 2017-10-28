@@ -1,0 +1,2 @@
+
+Should the collection maintain the order of the elements? Is the order important in any way?

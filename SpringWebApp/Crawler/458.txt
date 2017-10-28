@@ -1,0 +1,2 @@
+
+the compiler would not know which method to call. It is also the case for the thrown exceptions.

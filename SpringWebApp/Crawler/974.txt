@@ -1,0 +1,2 @@
+
+For example, this script displays the HTML b tags contents:

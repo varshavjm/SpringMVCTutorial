@@ -1,0 +1,2 @@
+
+Once you know your needs, you can select an existing implementation. But first decide if you need a Collection, or a Map.

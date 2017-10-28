@@ -1,0 +1,2 @@
+
+You can assign this to a variable having the same type as the class:

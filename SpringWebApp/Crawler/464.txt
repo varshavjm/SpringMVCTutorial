@@ -1,0 +1,2 @@
+
+99% of new objects are created using the new keyword.

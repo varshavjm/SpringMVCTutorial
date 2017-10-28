@@ -1,0 +1,2 @@
+
+The Collection interface defines the following basic operations:

@@ -1,0 +1,2 @@
+
+The implementations of java.util.Collection interface are used for grouping simple java objects.

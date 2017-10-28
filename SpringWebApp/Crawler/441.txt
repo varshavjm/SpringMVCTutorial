@@ -1,0 +1,2 @@
+
+An interface represents a contract:

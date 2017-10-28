@@ -1,0 +1,2 @@
+
+A comment on several lines is framed with '/' + '*' and '*' + '/'.

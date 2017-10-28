@@ -1,0 +1,2 @@
+
+Running the program would render the same rectangle but with a red colored outline.

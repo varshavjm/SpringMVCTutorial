@@ -1,0 +1,2 @@
+
+From a usage perspective, which operation will be more frequent, updates or reads?

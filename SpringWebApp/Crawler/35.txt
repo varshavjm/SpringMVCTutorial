@@ -1,0 +1,2 @@
+
+The Vector class can receive any object (so it can not receive primitive types), even different types of data in the same Vector.

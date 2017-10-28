@@ -1,0 +1,2 @@
+
+Many methods that can return a reference can return a null reference. Make sure you check these. For example:

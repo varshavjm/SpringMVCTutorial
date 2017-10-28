@@ -1,0 +1,2 @@
+
+That choice makes it really easy to implement adding and removing of listeners:
