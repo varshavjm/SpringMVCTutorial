@@ -6,16 +6,31 @@
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-    function crunchifyAjax(i) {
-    	alert("Query "+$("#collapse"+i.toString()).text());
+	function addList(data,index){
+		var JsonData=JSON.parse(data);
+		var list=document.createElement('ol');
+		for(i=0;i<JsonData.length;i++){
+			
+			var item= document.createElement('li');
+			item.appendChild(document.createTextNode(JsonData[i]));
+			list.appendChild(item);
+		}
+		var collapse= document.getElementById("collapseChild"+index.toString());
+		collapse.innerHTML="";
+		collapse.appendChild(list);
+	}
+	
+	
+    function addLifeToCollapses(i) {
+   // 	alert("Query "+$("#collapse"+i.toString()).text());
         $.ajax({
             url : 'http://localhost:8080/SpringWebApp/ajax/Varsha',
             type:'POST',
             data:{"query":$("#collapse"+i.toString()).text()},
             success : function(data) {
             	    
-                $('#collapseChild'+i.toString()).html(data);
-             //   alert(data);
+              //  $('#collapseChild'+i.toString()).html(data);
+               addList(data,i);
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 alert(xhr.status);
@@ -32,7 +47,7 @@
 $(window).bind("load",function(){
 //	alert("Window loading");
 	for(i=1;i<=10;i++){
-	crunchifyAjax(i);
+		addLifeToCollapses(i);
 	}
 });
    
