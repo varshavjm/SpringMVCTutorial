@@ -54,7 +54,9 @@ public class BaseController {
 	@RequestMapping(value = "/ajax/{name}", method = RequestMethod.POST, produces="application/json")
 	public @ResponseBody String ajax(@PathVariable("name") String name,@RequestParam("query")String query) {
 		
-		System.out.println("Query is "+query);
+		query=query.trim();
+		query=query.substring(2, query.length());
+		System.out.println("....Query is "+query);
 		if(query.length()>0) {
 		String[] fileList = null;
 		try {

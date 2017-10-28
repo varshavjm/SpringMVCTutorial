@@ -176,7 +176,6 @@ public class SimpleLuceneIndexing {
 			
 			e.printStackTrace();
 		}
-		System.out.println("Qeury with stopwrods remove******\n"+querystr );
 		Query q = new QueryParser( "contents", new MyAnalyzer()).parse(querystr);
 		int hitsPerPage = 10;
 
