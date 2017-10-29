@@ -116,7 +116,7 @@
     <artifactId>jsoup</artifactId>
     <version>1.10.3</version>
 </dependency>
-<!-- Exude and Tika depedency -->
+<!-- Exude and Tika dependency -->
 <!-- https://mvnrepository.com/artifact/com.uttesh/exude -->
 <dependency>
     <groupId>com.uttesh</groupId>

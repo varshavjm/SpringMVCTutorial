@@ -31,18 +31,4 @@ class SingletonBean {
 	public static SingletonBean createAndReturnInstance() {
 		return bean;
 	}
-	protected void finalize() {
-		//Delete contents of Crawler directory
-		File f= new File("Crawler");
-		if(f.exists() || f!=null) {
-		try {
-			FileUtils.deleteDirectory(f);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		}
-	}
-
 }

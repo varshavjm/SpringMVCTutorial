@@ -50,7 +50,7 @@ public class BaseController {
 		ArrayList<QueryAndLink> result = new ArrayList<>();
 		// Remove spaces and query indices
 		query = query.trim();
-		query = query.substring(2, query.length());
+		//query = query.substring(2, query.length());
 		System.out.println("..Query is " + query);
 		if (query.length() > 0) {
 			String[] fileList = null;
