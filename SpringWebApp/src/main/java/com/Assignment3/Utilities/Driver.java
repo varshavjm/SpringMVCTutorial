@@ -165,7 +165,7 @@ public class Driver {
 		FileWriter writer = null;
 
 		try {
-			writer = new FileWriter(f);
+			writer = new FileWriter(f,true);
 			bw = new BufferedWriter(writer);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

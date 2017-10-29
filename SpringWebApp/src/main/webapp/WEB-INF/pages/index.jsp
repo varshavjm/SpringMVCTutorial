@@ -85,7 +85,7 @@
 		<ul>
 			<i class="glyphicon glyphicon-hand-right"></i>  Crawling
 				<ul>
-					<li>Crawled Pages across Java WikiBooks Pages Recursively</li>
+					<li>Crawled Pages across Java WikiBooks and Oracle Java Docs Pages Recursively</li>
 					<li>Extracted Paragraphs instead of Pages and stored them in
 						files</li>
 					<li>Removed duplicate paragraphs</li>

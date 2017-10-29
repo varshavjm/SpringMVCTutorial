@@ -1,14 +1,6 @@
 package com.Assignment3.Beans;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-
-import org.apache.commons.io.FileUtils;
-import org.apache.lucene.queryparser.classic.ParseException;
-
+import com.Assignment3.Utilities.BasicWebCrawler;
 import com.Assignment3.Utilities.Driver;
-import com.Assignment3.Utilities.QueryReader;
 import com.Assignment3.Utilities.ReadUtility;
 import com.Assignment3.Utilities.SimpleLuceneIndexing;
 
@@ -24,7 +16,14 @@ class SingletonBean {
 	}
 	private void init() {
 		
+		//Crawl Wiki LInks
+		BasicWebCrawler.setParentURL("https://en.wikibooks.org/wiki/Java_Programming");
 		Driver.crawlWebContent("https://en.wikibooks.org/wiki/Java_Programming");
+		//CrawlOracleLinks
+		BasicWebCrawler.setMaxDepth(1);
+		BasicWebCrawler.setParentURL("https://docs.oracle.com/javase/tutorial");
+		Driver.crawlWebContent("https://docs.oracle.com/javase/tutorial/java/index.html");
+		
 		SimpleLuceneIndexing.createIndex("Crawler");
 		
 	}

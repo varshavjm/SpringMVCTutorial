@@ -11,28 +11,37 @@ import org.jsoup.nodes.Element;
 
 public class BasicWebCrawler {
 	private HashMap<Integer,String> links;
-	private static final int MAX_DEPTH=1;
+	private static int MAX_DEPTH=1;
 	private static int count=0;
-	
+	private static String parentURL;
     public BasicWebCrawler() {
         links = new HashMap<Integer,String>();
    
+    }
+    public static void setMaxDepth(int depth) {
+    		MAX_DEPTH=depth;
     }
     
     public HashMap<Integer,String> getLinksMap(){
     	return links;
     }
 
+    public static void setParentURL(String url){
+    	
+    	parentURL=url;
+    	
+    }
     public void getPageLinks(String URL, int depth) {
         //4. Check if you have already crawled the URLs
         if (!links.containsValue(URL) && depth<=MAX_DEPTH) {
+        //	System.out.println("Visited URL "+URL);
             try {
                 //4. (i) If not add it to the index
-            		if(!URL.contains("https://en.wikibooks.org/wiki/Java_Programming"))
+            		if(!URL.contains(parentURL))
             				return;
             		
                 if (links.put(count++,URL) == null) {
-                //    System.out.println("Cnt"+count+"Depth->"+depth+" URL->"+URL);
+          //          System.out.println("Cnt"+count+"Depth->"+depth+" URL->"+URL);
                     
                 }
 

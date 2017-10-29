@@ -12,7 +12,6 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 import com.Assignment3.Utilities.MyAnalyzer;
-import com.uttesh.exude.ExudeData;
 
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.LowerCaseFilter;
