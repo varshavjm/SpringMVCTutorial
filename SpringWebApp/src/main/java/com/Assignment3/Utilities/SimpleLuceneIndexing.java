@@ -12,6 +12,8 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 import com.Assignment3.Utilities.MyAnalyzer;
+import com.uttesh.exude.ExudeData;
+
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.LowerCaseFilter;
 import org.apache.lucene.analysis.TokenStream;
@@ -36,22 +38,10 @@ import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopScoreDocCollector;
-import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.BytesRef;
-import org.apache.lucene.util.Version;
-import org.apache.poi.util.SystemOutLogger;
-
-import com.uttesh.exude.ExudeData;
-
 import org.apache.lucene.analysis.core.StopFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
-import org.apache.lucene.analysis.standard.StandardTokenizerImpl;
-/**
- * Lucene Demo: basic similarity based content indexing 
- * @author Sharonpova
- * Current sample files fragments of wikibooks and stackoverflow. 
- */
 
 
 public class SimpleLuceneIndexing {
@@ -105,7 +95,6 @@ public class SimpleLuceneIndexing {
 		CharArraySet stopWords = EnglishAnalyzer.getDefaultStopSet();
 		StandardTokenizer stdToken = new StandardTokenizer();
 		stdToken.setReader(new StringReader(textFile.trim()));
-
 		TokenStream tokenStream = new StopFilter (new ASCIIFoldingFilter(new ClassicFilter(new LowerCaseFilter(stdToken))), stopWords);
 		StringBuilder sb = new StringBuilder();
 		CharTermAttribute charTermAttribute = tokenStream.addAttribute(CharTermAttribute.class);
@@ -116,7 +105,7 @@ public class SimpleLuceneIndexing {
 		}
 		
 		//String tempQuery=ExudeData.getInstance().filterStoppings(sb.toString());
-		//tempQuery=ExudeData.getInstance().filterStoppings(sb.toString());
+		//tempQuery=ExudeData.getInstance().filterStoppingsKeepDuplicates(tempQuery);
 		//return tempQuery;
 		return sb.toString();
 	}

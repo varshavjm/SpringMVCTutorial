@@ -13,6 +13,7 @@ public class BasicWebCrawler {
 	private HashMap<Integer,String> links;
 	private static final int MAX_DEPTH=1;
 	private static int count=0;
+	
     public BasicWebCrawler() {
         links = new HashMap<Integer,String>();
    
@@ -42,8 +43,6 @@ public class BasicWebCrawler {
                 	depth++;
                 //5. For each extracted URL... go back to Step 4.
                 for (Element page : linksOnPage) {
-                	
-    
                     getPageLinks(page.attr("abs:href"),depth);
                 }
             } catch (IOException e) {
