@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta charset="UTF-8">
 <script type="text/javascript"
 	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <link rel="stylesheet"
@@ -12,7 +13,9 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	function addList(data, index) {
-		var JsonData = JSON.parse(data);
+		//var JsonData = JSON.parse(data);
+		var JsonData = JSON.parse( JSON.stringify(data).replace(/[^\x00-\x7F]/g, ""));
+;
 		var list = document.createElement('ol');
 		for (i = 0; i < JsonData.length; i++) {
 
@@ -20,7 +23,7 @@
 			var a = document.createElement('a');
 			a.className = "contentLinks";
 			a.href = JsonData[i].link;
-			a.text = "Click for more...";
+			a.text = " Click for more...";
 			a.target = "#";
 			item.appendChild(document.createTextNode(JsonData[i].query));
 			item.appendChild(a);
@@ -76,6 +79,32 @@
 					}
 				});
 	</script>
+	<div class="well">
+		<h3>How Indexing is Done</h3>
+		<ul>
+			<li>Crawling
+				<ul>
+					<li>Crawled Pages across Java WikiBooks Pages Recursively</li>
+					<li>Extracted Paragraphs instead of Pages and stored them in
+						files</li>
+					<li>Removed duplicate paragraphs</li>
+				</ul>
+			</li>
+			<li>Indexing and Searching
+				<ul>
+					<li>Designed Custom Analyzer that performs <b>Porter Stemming</b> on
+						crawled content</li>
+					<li><b>Removes stopwords</b></li>
+					<li>Creates an in-memory index</li>
+					<li>Remove stopwords from query</li>
+					<li>Ranks query keywords using TF-IDF</li>
+					<li>Retrieves top 10 paragraphs using weighted query and
+						in-memory index</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
 	<div class="panel-group" id="accordion">
 		<div class="panel panel-default">
 			<div class="panel-heading">
