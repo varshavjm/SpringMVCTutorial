@@ -4,6 +4,8 @@
 	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="${pageContext.request.contextPath}/resources/style.css"
+    rel="stylesheet">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
@@ -29,14 +31,6 @@
 		collapse.innerHTML = "";
 		collapse.appendChild(list);
 	}
-	function parseQueryLinksObject(data) {
-		var JsonData = JSON.parse(data);
-		for (i = 0; i < JsonData.length; i++) {
-			console.log("Query" + JsonData[i].query);
-			console.log("LInk" + JsonData[i].link);
-
-		}
-	}
 
 	function addLifeToCollapses(i) {
 		// 	alert("Query "+$("#collapse"+i.toString()).text());
@@ -58,6 +52,9 @@
 </script>
 
 </head>
+<header><div id="heading" style="height:80px;background-color:#563d7c;">
+			<h1 style="color:#ffffff;text-align:center;margin-top:0!important;padding:20px;">Assignment 3</h1>
+			</div></header>
 <body>
 
 	<script type="text/javascript">
@@ -79,7 +76,6 @@
 					}
 				});
 	</script>
-
 	<div class="panel-group" id="accordion">
 		<div class="panel panel-default">
 			<div class="panel-heading">
@@ -96,6 +92,7 @@
 				</h4>
 
 			</div>
+			
 			<div id="collapseChild1" class="panel-collapse collapse">
 				<div class="panel-body"></div>
 			</div>
@@ -170,12 +167,13 @@
 						data-parent="#accordion" href="#collapseChild4">I found
 						out that the above piece of code is perfectly legal in Java. I
 						have the following questions. ThanksAdded one more question
-						regarding Abstract method classes. public class TestClass{public
+						regarding Abstract method classes.<br/>
+						<em>public class TestClass{public
 						static void main(String[] args) {TestClass t = new TestClass();}
 						private static void testMethod(){abstract class TestMethod{int
 						a;int b;int c;abstract void implementMe();} class DummyClass
 						extends TestMethod{void implementMe(){}}DummyClass dummy = new
-						DummyClass();}} </a>
+						DummyClass();}}</em> </a>
 				</h4>
 
 			</div>
@@ -206,13 +204,15 @@
 					<a class="collapse6" data-toggle="collapse"
 						data-parent="#accordion" href="#collapseChild6"> You can
 						make a deep copy serialization without creating some files. Copy:
-						Restore: ByteArrayOutputStream bos = new ByteArrayOutputStream();
+						Restore: <br/>
+						<em>
+						ByteArrayOutputStream bos = new ByteArrayOutputStream();
 						ObjectOutputStream oos = new
 						ObjectOutputStream(bos);oos.writeObject(object);oos.flush();
 						oos.close();bos.close();byte[] byteData = bos.toByteArray();;
 						ByteArrayInputStream bais = new ByteArrayInputStream(byteData);
 						(Object) object = (Object) new
-						ObjectInputStream(bais).readObject(); </a>
+						ObjectInputStream(bais).readObject();</em> </a>
 				</h4>
 
 			</div>
@@ -262,10 +262,10 @@
 				<h4 class="panel-title">
 					<a class="collapse9" data-toggle="collapse"
 						data-parent="#accordion" href="#collapseChild9"> comment
-						this code /*if (savedinstancestate == null) {
+						this code <br/>
+						<em>/*if (savedinstancestate == null) {
 						getsupportfragmentmanager().begintransaction() .add(r.id.container
-						new placeholderfragment()) .commit(); }*/ </a>
-						<span>[]</span>
+						new placeholderfragment()) .commit(); }*/ </em></a>
 				</h4>
 
 			</div>
@@ -284,7 +284,7 @@
 						give any error because my implicit default constructor was public
 						but when i declared my implicit default constructor as private
 						then its showing an error while extending the class. why? this
-						works fine this can not be inherited public class demo4 { private
+						works fine this can not be inherited<br/><em> public class demo4 { private
 						string name; private int age; private double sal; private
 						demo4(string name int age) { this.name=name; this.age=age; }
 						demo4(string name) { this.name=name; } demo4() { this(\"unknown\"
@@ -295,7 +295,7 @@
 						this.name=name; this.age=age; } demo4(string name) {
 						this.name=name; } private demo4() { this(\"unknown\" 20);
 						this.sal=2000; } void show() { system.out.println(\"name\"+name);
-						system.out.println(\"age: \"+age); } } </a>
+						system.out.println(\"age: \"+age); } }</em></a>
 				</h4>
 
 			</div>
