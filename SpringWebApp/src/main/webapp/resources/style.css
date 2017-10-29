@@ -6,3 +6,10 @@ div.panel-group{
 h3{
 	color:#563d7c;
 }
+
+a{
+	
+	text-align:justify !important;
+	width:100% !important;
+	display:inline-block;
+}

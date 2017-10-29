@@ -100,6 +100,7 @@
 					<li>Ranks query keywords using TF-IDF</li>
 					<li>Retrieves top 10 paragraphs using weighted query and
 						in-memory index</li>
+					<li>To view top 10 posts of a query, Click on the link associated with the question/answer</li>
 				</ul>
 			</li>
 		</ul>
