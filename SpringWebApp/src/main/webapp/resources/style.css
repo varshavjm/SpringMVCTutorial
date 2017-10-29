@@ -9,7 +9,17 @@ h3{
 
 a{
 	
-	text-align:justify !important;
-	width:100% !important;
+	text-align:justify;
+	width:100%;
 	display:inline-block;
+}
+ul{
+	
+	color:#ff4c0a;
+	
+}
+
+ul li, ol li{
+	
+		font-size:16px !important;
 }

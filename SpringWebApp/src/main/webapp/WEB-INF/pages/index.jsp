@@ -7,8 +7,8 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="${pageContext.request.contextPath}/resources/style.css"
     rel="stylesheet">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--  script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script-->
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
@@ -79,18 +79,19 @@
 					}
 				});
 	</script>
+	<div class="se-pre-con"></div>
 	<div class="well">
 		<h3>How Indexing is Done</h3>
 		<ul>
-			<li>Crawling
+			<i class="glyphicon glyphicon-hand-right"></i>  Crawling
 				<ul>
 					<li>Crawled Pages across Java WikiBooks Pages Recursively</li>
 					<li>Extracted Paragraphs instead of Pages and stored them in
 						files</li>
 					<li>Removed duplicate paragraphs</li>
 				</ul>
-			</li>
-			<li>Indexing and Searching
+			
+			<i class="glyphicon glyphicon-hand-right"></i>  Indexing and Searching
 				<ul>
 					<li>Designed Custom Analyzer that performs <b>Porter Stemming</b> on
 						crawled content</li>
@@ -100,9 +101,9 @@
 					<li>Ranks query keywords using TF-IDF</li>
 					<li>Retrieves top 10 paragraphs using weighted query and
 						in-memory index</li>
-					<li>To view top 10 posts of a query, Click on the link associated with the question/answer</li>
 				</ul>
-			</li>
+		
+			<i class="glyphicon glyphicon-hand-right"></i>  To view top 10 posts of a query, Click on the link associated with the question/answer
 		</ul>
 	</div>
 	
